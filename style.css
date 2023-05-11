@@ -4,11 +4,10 @@ body{
     background-color: #1B9C85;
 }
 .container{
-    background-color: #AFD3E2;
+    background-color: #E8F6EF;
     display:grid;
     grid-template-columns: 1fr 3fr 2fr;
     height: 94vh;
-    border-radius: 10%;
     }
 
 /*right container, i.e. order summary*/
@@ -237,4 +236,117 @@ input[type='radio'] {
 }
 input[type='checkbox'] {
     accent-color: #0f8670;
+}
+/*Responsiveness*/
+/*mobiles*/
+@media(max-width:360px){
+    .container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .container-middle{
+        padding: 10px;
+    }
+    .container-right{
+        padding: 10px;
+    }
+    .container-left{
+        flex-direction: row;
+    }
+    .icon{
+        margin-top: 0;
+    }
+    .container-left p{
+        display:none;
+    }
+    .card-number,
+    .card-holder-name{
+        width:300px;
+    }
+    .expiry-date,
+    .cvv-code{
+        width:145px;
+    }
+    .amount{
+        margin-left:150px;
+    }
+    .buy{
+        margin-left:200px;
+    }
+}
+@media(min-width:360px) and (max-width:800px){
+    .container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .container-middle{
+        padding: 10px;
+    }
+    .container-right{
+        padding: 10px;
+    }
+    .container-left{
+        flex-direction: row;
+    }
+    .icon{
+        margin-top: 0;
+    }
+    .container-left p{
+        display:none;
+    }
+    .card-number,
+    .card-holder-name{
+        width:300px;
+    }
+    .expiry-date,
+    .cvv-code{
+        width:145px;
+    }
+    .amount{
+        margin-left:150px;
+    }
+    .buy{
+        margin-left:200px;
+    }
+}
+/*ipads or tabs*/
+@media (min-width:800px) and (max-width:1000px){
+    .container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .container-middle{
+        padding: 10px;
+        width:700px;
+    }
+    .container-right{
+        padding: 10px;
+        width:700px;
+    }
+    .container-left{
+        flex-direction: row;
+    }
+    .icon{
+        margin-top: 0;
+    }
+    .card-number,
+    .card-holder-name{
+        width:700px;
+    }
+    .expiry-date,
+    .cvv-code{
+        width:340px;
+    }
+    .amount{
+        margin-left:150px;
+    }
+    .buy{
+        margin-left:600px;
+    }
 }
