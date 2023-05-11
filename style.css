@@ -214,10 +214,6 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* Firefox arrow remover*/
-input[type=number] {
-  -moz-appearance: textfield;
-}
 .input:focus{
     border:#0f8670 solid 1px;
     outline:#0f8670;
