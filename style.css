@@ -146,6 +146,9 @@ fieldset{
     border-color: #3C486B 1px;
     margin-bottom: 20px;
 }
+fieldset:active{
+    border: 2px solid;
+}
 .date-cvv-flex{
     display:flex;
 }
