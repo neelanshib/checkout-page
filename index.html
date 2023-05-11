@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200&family=Libre+Baskerville&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="container-left">
+            <div class="icon icon-top"><img src="icons8-check.svg" alt=""></div>
+            <a href="#"><p>Shipping</p></a>
+            <div class="icon"><img src="icons8-check.svg" alt=""></div>
+            <a href="#"><p>Personal Details</p></a>
+            <div class="icon three"><img src="icons8-circled-3-100.png" alt=""></div>
+            <p>Payment</p>
+            <div class="icon"><img src="icons8-circled-4-100.png" alt=""></div>
+            </a><p>Review</p>
+        </div>
+        <!--Container middle-->
+        <div class="container-middle">
+            <h1>Payment</h1>
+            <p>Card Type<span>*</span></p>
+            <div class="card-flex">
+                <fieldset class="credit-card">
+                    <input type="radio" id="credit-card" name="card-selection" value="card-selection" class="credit-card">
+                    <label for="credit-card">Credit Card</label>
+                </fieldset>
+                <fieldset class="debit-card">
+                    <input type="radio" id="debit-card" name="card-selection" value="card-selection" class="debit-card">
+                    <label for="debit-card">Debit Card</label>
+                </fieldset>
+            </div>
+            <div class="middle-flexbox"><form>
+            <div class="number">
+                <label for="card-number" class="label-info">Card Number<span>*</span></label>
+                <input type="number" id="card-number" name="card-number" placeholder="Card Number" class="card-number">
+            </form>
+            </div>
+            <div class="name">
+            <form>
+                <label for="card-holder-name" class="label-info">Card Holder Name<span>*</span></label>
+                <input type="text" id="card-holder-name" name="card-holder-name" placeholder="Card Holder Name" class="card-holder-name">
+            </form>
+            </div>
+            <div class="date-cvv-flex">
+            <form>
+                <label for="expiry-date" class="label-info">Expiry Date<span>*</span></label>
+                <input type="tel" id="expiry-date" name="expiry-date" placeholder="Expiry Date" class="expiry-date">
+            </form>
+            <form>
+                <label for="cvv-code" class="label-info">CVV<span>*</span></label>
+                <input type="number" id="cvv-code" name="cvv-code" placeholder="CVV Code" class="cvv-code">
+            </form>
+            </div>
+            </div>
+            <p><input type="checkbox">
+            Save card for future use</p>
+            <div class="back"><img src="icons8-back-52.png" alt="back-arrow"><a href="#">Back</a></div>
+            <button type="submit" class="buy"><a href="#">Buy Items</a></button>
+        </div>
+        <!--Container Right-->
+        <div class="container-right">
+            <h1>Order Summary</h1>
+        <a href="#"><div class="flex-main">
+            <div class="image"><img src="icons8-sell-64.png" alt="image"></div>
+            <div class="order-1">
+                <div class="orders-flex"><p class="item">Order Item 1</p>
+                <div class="amount"><p>₹500</p></div></div>
+                <div class="source"><p>Selling company 1</p></div><!--italics-->
+                <div class="remove-item-button"><a href="#">Remove</a></div>
+            </div>
+        </div></a>
+            <hr>
+        <a href="#"><div class="flex-main">
+            <div class="image"><img src="icons8-sell-64.png" alt="image"></div>
+            <div class="order-2">
+                <div class="orders-flex"><p class="item">Order Item 2</p>
+                <div class="amount"><p>₹250</p></div></div>
+                <div class="source"><p>Selling company 2</p></div><!--italics-->
+                <div class="remove-item-button"><a href="#">Remove</a></div>
+            </div>
+        </div></a>
+                <hr>
+        <div class="subtotal-area">
+            <p><a href="#">Have a discount code?</a></p>
+            <div class="subtotal-flex"><p>Subtotal</p>
+                <div class="amount-sub"><p>₹750</p></div></div>
+            <div class="subtotal-flex"><p>Shipping Charges</p>
+                    <div class="amount-sub"><p>₹50</p></div></div>
+            <hr class="hr">
+            <div class="subtotal-flex"><p class="total">Total</p>
+                        <div class="amount-sub"><p class="total">₹800</p></div></div>
+        </div>
+        </div>
+
+        </div>
+    </div>
+    <footer>All icons by <a target="_blank" href="https://icons8.com">Icons8</a></footer>
+</body>
+</html>

@@ -1,0 +1,237 @@
+body{
+    font-family: 'Lexend', sans-serif;
+    margin: 10px;
+    background-color: #1B9C85;
+}
+.container{
+    background-color: #AFD3E2;
+    display:grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    height: 94vh;
+    border-radius: 10%;
+    }
+
+/*right container, i.e. order summary*/
+.container-right{
+    background-color: #F0F0F0;
+    color: #3C486B;
+    padding: 25px;
+    box-sizing: border-box;
+    border-left: solid 1px #fcebc1;
+    
+}
+.orders-flex{
+    display: flex;
+}
+.amount{
+    margin-left: 170px;
+    font-weight: bold;
+}
+.container-right p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.source{
+    font-style: italic;
+    font-size: 15px;
+    color: #1B9C85;
+}
+.remove-item-button{
+    font-size:smaller;
+    color: #F45050;
+}
+.item{
+    font-weight: bold;
+}
+.flex-main{
+    display: flex;
+    gap: 10px;
+}
+.flex-main img{
+    margin-left: auto;
+}
+hr{
+    border: 0.5px solid #146C94;
+}
+h1{
+    margin-top: 0;
+    color: #3C486B;
+}
+.container-right a{
+    color:#1B9C85;
+}
+.container-right a:hover{
+    font-weight: bold;
+}
+.subtotal-flex{
+    display: flex;
+}
+.amount-sub{
+    margin-left:auto;
+}
+.total{
+    font-weight: bold;
+}
+.hr{
+    border:#a4e2d7a1 0.1px solid;
+}
+.flex-main:hover{
+    background-color: #cdebdc;
+}
+.flex-main a{
+    text-decoration: none;
+    color:#3C486B;
+}
+.remove-item-button a{
+    color:#F45050;
+    text-decoration: none;
+}
+.subtotal-area p{
+    margin-top:15px;
+}
+/*container left*/
+.container-left{
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: solid 1px #fcebc1;
+}
+.icon{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.icon img{
+    height: 85px;
+    
+}
+.icon-top{
+    margin-top: 40px;
+}
+.line{
+    height: 10px;
+}
+.container-left p{
+    text-align: center;
+    margin-top: 0;
+}
+.three{
+    border-radius: 50%;
+}
+.container-left a{
+    text-decoration: none;
+    color:black;
+}
+/*Middle container*/
+.container-middle{
+    background-color: #F0F0F0;
+    padding: 25px;
+    color:#3C486B;
+}
+.debit-card{
+    margin-left:auto;
+}
+.card-flex{
+    display:flex; 
+    
+}
+.credit-card,
+.debit-card{
+ flex-basis: 1000px;
+}
+span{
+    color:#F45050;
+}
+fieldset{
+    border-color: #3C486B 1px;
+    margin-bottom: 20px;
+}
+.date-cvv-flex{
+    display:flex;
+}
+.card-number,
+.card-holder-name{
+    height:35px;
+    width:610px;
+    margin-bottom: 20px;
+    font-family: 'Lexend', sans-serif;
+    border:#3C486B solid 1px;
+}
+.expiry-date,
+.cvv-code{
+    height:35px;
+    width:297px;
+    margin-bottom: 20px;
+    font-family: 'Lexend', sans-serif;
+    border:#3C486B solid 1px;
+}
+.cvv-code{
+    margin-left:12px;
+}
+.buy{
+    height:35px;
+    width:100px;
+    font-family: 'Lexend', sans-serif;
+    margin-left:510px;
+    color: white;
+    border:#1B9C85 solid 1px;
+    background-color: #1B9C85;
+    font-size: 15px;
+}
+.remove-item-button:hover{
+    font-weight:bold;
+}
+.container-middle a{
+    color: #1B9C85;
+    text-decoration: none;
+}
+.container-middle button a{
+    color:white;
+}
+.container-middle a:hover{
+    font-weight: bold;
+}
+.container-middle button:hover{
+    background-color:#0f8670;
+}
+.container-middle button a:hover{
+    font-weight: 0;
+}
+.back img{
+    height: 10px;
+}
+.middle-flexbox{
+    display:flex;
+    flex-direction: column;
+}
+
+/* Chrome, Safari, Edge, Opera arrow remover*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox arrow remover*/
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.input:focus{
+    border:#0f8670 solid 1px;
+    outline:#0f8670;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    color:white;
+}
+footer a{
+    color:#E8F6EF;
+    text-decoration: none;
+}
+input[type='radio'] {
+    accent-color: #0f8670;
+}
+input[type='checkbox'] {
+    accent-color: #0f8670;
+}
