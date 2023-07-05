@@ -1,2 +1,2 @@
 # checkout-page
-A checkout page made with purely HTML and CSS. Not responsive yet, only suitable for laptops.
+A checkout page made with purely HTML and CSS. It is now responsive as well.
